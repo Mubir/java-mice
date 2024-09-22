@@ -8,9 +8,9 @@ public class Client {
         try {
             obj.ComOkRunET("we will", "add & print");
         } catch (Exception e) {
-            System.out.println(" ############## ");
+            System.out.println("############## »");
             System.out.println(e);
-            System.out.println(" ############## ");
+            System.out.println("############## »");
         } finally {
             obj.ComOkRunOkAsTypeSafe("My Bad!! fixed", 69);
         }
